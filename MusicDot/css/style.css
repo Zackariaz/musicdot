@@ -6,12 +6,30 @@ p{
 }
 
 body{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Helvetica","Lucida Grande", sans-serif;
     COLOR: #3D3D3D;
+
 }
 
 Subtitle{
     background-color: #fff;
+}
+
+historia{
+    background-color: #fff;
+}
+#historia:hover{
+    color:#0000ff;
+}
+
+Dif{
+   background-color: #fff;
+}
+#Dif:hover{
+    color:#0000ff;
 }
 
 #Subtitle:hover{
@@ -27,8 +45,15 @@ h2{
 }
 
 figure{
+    margin: 10px;
+    padding: 15px;
     text-align: center;
     background-color: whitesmoke;
+    text-align: center;
     border: 1px solid lightgray;
 
+}
+
+figcaption{
+    margin-top:10px
 }
